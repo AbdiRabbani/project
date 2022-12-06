@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'sfpro';
+    src: url(/assets/font/SFPRODISPLAYMEDIUM.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background: #08c;
+}
+
+.navbar{
+    background: #0078B5;
+}
+
+.i {
+    width: 368px;
+    height: 233px;
+}
+
+.title {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.title h3 {
+    font-size: 87.41px;
+    font-family: 'AppleGaramond-Bold';
+    color: yellow;
+}
+
+.title p {
+    font-size: 23.06px;
+    font-family: 'sfpro';
+    color: #fff;
+}
