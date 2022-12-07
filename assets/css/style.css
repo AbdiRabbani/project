@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -60,15 +64,33 @@ section {
   object-fit: cover;
 }
 
+.text-image {
+  display: none;
+  position: absolute;
+  color: white;
+  left: 14px;
+  top: 100px;
+  text-align: start;
+}
 
+.text-image p {
+  font-size: 1rem;
+}
+
+.swiper-slide:hover img {
+  filter: brightness(60%);
+}
+
+.swiper-slide:hover .text-image {
+  display: block;
+
+}
 
 /* Footer */
 
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
-body {
-  margin: 0;
-}
+
 
 
 .header {
