@@ -329,9 +329,11 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 5,
             spaceBetween: 30,
-            slidesPerGroup: 1,
+            slidesPerGroup: 3,
+            centeredSlides: true,
+            speed: 15000,
             autoplay: {
-                delay: 1000,
+                delay: 15,
             },
             loop: true,
             loopFillGroupWithBlank: true,
@@ -343,10 +345,12 @@
 
         var swiper = new Swiper(".youSwiper", {
             slidesPerView: 5,
+            centeredSlides: true,
             spaceBetween: 30,
-            slidesPerGroup: 1,
+            slidesPerGroup: 3,
+            speed: 15000,
             autoplay: {
-                delay: 1200,
+                delay: 10,
             },
             loop: true,
             loopFillGroupWithBlank: true,
