@@ -192,3 +192,13 @@ section {
     font-size: 24px;
   }
 }
+
+
+
+/* SWIPER SECTIONA */
+
+
+.carousel {
+  background-color: aquamarine;
+  max-height: 100vh;
+}
